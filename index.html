@@ -244,7 +244,37 @@
                   <div class="col-12 col-lg-6">
                     <div class="p-5">
                     <div class="d-flex align-items-center justify-content-center"> 
-                        <div class="btn btn-primary bg-light text-dark">Register Now</div>
+                        <button type="button" class="btn btn-primary bg-light text-dark" data-bs-toggle="modal" data-bs-target="#myModal">Register Now</button>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Register Now</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label class="form-label required">Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label required">Email</label>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label required">Type ypur message here</label>
+                                                <textarea class="form-control"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" class="btn btn-danger">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     </div>
                   </div>
@@ -400,7 +430,15 @@
                       </h2>
                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <ul>
+                                <li>CSS Grid Layout is a two-dimensional, Where CSS Flexbox offers a one-dimensional layout. </li>
+                                <li>Flexbox offers greater control over alignment and space distribution between items. Being one-dimensional, Flexbox only deals with either columns or rows.</li>
+                                <li>Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.
+                                </li>
+                                <li>Flex Container is the parent element while Flex Item represents the children. The Flex Container can ensure balanced representation by adjusting item dimensions. This allows developers to design for fluctuating screen sizes.
+                                </li>
+                            </ul>
+                            
                         </div>
                       </div>
                     </div>
@@ -412,31 +450,75 @@
                       </h2>
                       <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <ul>
+                              <li>Tailwind offers predesigned widgets to build a site from scratch with fast UI development. Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.
+                            </li>
+                            <li>
+                                Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.
+	
+                            </li>
+                            <li>
+                                Websites created using Tailwind CSS are much more customizable.	 Websites created with Bootstraps are known for their responsiveness and flawless design, but the looks are generic and similar.
+                            </li>
+                            <li>
+                                Tailwind CSS only needs the base stylesheet file, which amounts up to 27kb making it lighter.	Bootstrap has four files that are required to include in your project to get the full benefit of the CSS Framework. The total size of these files is 308.25kb including, jQuery, Popper.js, Bootstrap JS, and the main Bootstrap CSS file.
+
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                          What is Sementic Tag?
+                          What is Semantic Tag?
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                         <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <p>HTML tags are classified in two types.</p>
+                          <ul>
+                              <li>Semantic</li>
+                              <li>Non-Semantic</li>
+                         </ul>
+                         <p>Semantic elements have meaningful names which tells about type of content. For example header, footer, table etc. HTML5 introduces many semantic elements as mentioned below which make the code easier to write and understand for the developer as well as instructs the browser on how to treat them. 
+                             <ul>
+                                 <li>article</li>
+                                 <li>aside</li>
+                                 <li>details</li>
+                                 <li>figcaption</li>
+                                 <li>figure</li>
+                                 <li>footer</li>
+                                 <li>header</li>
+                                 <li>main</li>
+                                 <li>mark</li>
+                                 <li>nav</li>
+                                 <li>section</li>
+                             </ul>
+                        </p>
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item ">
                       <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                          What is CSS-box Model? 
+                          What is CSS Box Model? 
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                         <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <p>The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS. Some of them are given below: 
+                        </p>
+                        <ul>
+                            <li>content: This property is used to displays the text, images, etc, that can be sized using the width & height property.
+                            </li>
+                            <li>padding: This property is used to create space around the element, inside any defined border.
+                            </li>
+                            <li>border: This property is used to cover the content & any padding, & also allows to set the style, color, and width of the border.
+                            </li>
+                            <li>margin: This property is used to create space around the element ie., around the border area.
+                            </li>
+                        </ul>
                         </div>
                       </div>
                     </div>
@@ -449,6 +531,10 @@
 
 
          <!-- Frequently Asked Questions Finish -->
+
+
+
+
 
          <!-- Trusted by companiess Start -->
 
