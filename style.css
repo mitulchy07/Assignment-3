@@ -1,0 +1,23 @@
+.our-institute{
+    background-color: #fafafd;
+}
+.register-now-bg{
+    background-color: #289BDE;
+}
+.bg-my-choice{
+    background-color: #161616;
+}
+@media screen and (max-width:991px) {
+
+    .top-company{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:992px ){
+    .top-company{
+        display: block;
+    }
+    
+}
